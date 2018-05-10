@@ -46,5 +46,13 @@ public class CricketCoach implements Coach{
 		// TODO Auto-generated method stub
 		return theFortuneService.getFortune();
 	}
+	
+	public void doMyMethod() {
+		System.out.println("LOL");
+	}
+	
+	public void doMyDestroy() {
+		System.out.println("NO LOL");
+	}
 
 }
